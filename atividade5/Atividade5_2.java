@@ -18,14 +18,16 @@ public class Atividade5_2 {
 			valores.add(leia.nextInt());
 		}
 
+		leia.close();
+
 		Iterator<Integer> iValores = valores.iterator();
 
 		System.out.println("\n");
-		
+
 		while (iValores.hasNext()) {
 			System.out.println(iValores.next());
 
 		}
-
 	}
+
 }
